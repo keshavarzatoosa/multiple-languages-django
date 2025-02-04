@@ -16,13 +16,6 @@ Including another URLconf
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
 from django.urls import path, include
-
-# urlpatterns = [
-#     path('admin/', admin.site.urls),
-#     path('', include('course.urls')),
-#     path('rosetta/', include('rosetta.urls')),
-# ]
-
 from django.utils.translation import gettext_lazy as _
 
 urlpatterns = i18n_patterns(

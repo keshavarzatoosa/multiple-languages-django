@@ -2,7 +2,7 @@ asgiref==3.8.1
 certifi==2021.5.30
 chardet==4.0.0
 Django==5.1.4
-django-parler==2.2
+django-parler==2.3
 django-rosetta==0.10.1
 idna==2.10
 polib==1.1.1
