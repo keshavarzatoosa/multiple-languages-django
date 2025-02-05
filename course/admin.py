@@ -1,6 +1,10 @@
 from django.contrib import admin
+from parler.admin import TranslatableAdmin
+
 from .models import Course
 
-# Register your models here.
 
-admin.site.register(Course)
+class CourseAdmin(TranslatableAdmin):
+    list_display = ('title', 'description')
+
+admin.site.register(Course, CourseAdmin)

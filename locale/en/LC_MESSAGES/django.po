@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-04 03:05-0800\n"
+"POT-Creation-Date: 2025-02-04 10:59-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,33 +22,43 @@ msgstr ""
 msgid "first name"
 msgstr "first name"
 
-#: .\course\models.py:5
-msgid "title"
+#: .\course\models.py:8
+#, fuzzy
+#| msgid "title"
+msgid "Title"
 msgstr "title"
 
-#: .\course\models.py:6
-msgid "description"
+#: .\course\models.py:9
+#, fuzzy
+#| msgid "description"
+msgid "Description"
 msgstr "description"
 
-#: .\course\models.py:7
-msgid "date"
-msgstr "date"
+#: .\course\models.py:10
+msgid "Date"
+msgstr "Date"
 
-#: .\course\models.py:8
-msgid "price"
+#: .\course\models.py:11
+#, fuzzy
+#| msgid "price"
+msgid "Price"
 msgstr "price"
 
 #: .\course\templates\index.html:14
 msgid "TestDriven.io"
 msgstr "TestDriven.io"
 
-#: .\course\templates\index.html:41
+#: .\course\templates\index.html:41 .\course\templates\index.html:102
 msgid "TestDriven.io Courses"
 msgstr "TestDriven.io Courses"
 
 #: .\course\templates\index.html:54
 msgid "Database is empty"
 msgstr "Database is empty"
+
+#: .\course\templates\index.html:108
+msgid "Language"
+msgstr "Language"
 
 #: .\django_lang\settings.py:124
 msgid "English"
@@ -57,3 +67,15 @@ msgstr "english"
 #: .\django_lang\settings.py:125
 msgid "Farsi"
 msgstr "farsi"
+
+#: .\django_lang\urls.py:22
+msgid "admin/"
+msgstr "admin"
+
+#, fuzzy
+#~| msgid "Farsi"
+#~ msgid "Fri"
+#~ msgstr "farsi"
+
+#~ msgid "date"
+#~ msgstr "date"
